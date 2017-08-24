@@ -1,0 +1,251 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+body {
+	background: #F1F1F1;
+	/*padding-bottom: 15px;*/
+}
+
+#top {
+	width: 100%;
+	height: 437px;
+	background: url(images/top.jpg) no-repeat center center;
+}
+
+
+/*导航条*/
+
+#menu {
+	width: 100%;
+	height: 40px;
+	background: #000000;
+}
+
+#menu .center {
+	width: 1000px;
+	height: 40px;
+	/*border-left: 1px solid gold;*/
+	/*border-right: 1px solid gold;*/
+	margin: 0 auto;
+}
+
+#menu .center a {
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	display: block;
+	float: left;
+	padding: 0 17px;
+}
+
+#menu .center a:hover {
+	background: #73B434;
+}
+
+
+/*导航条结束*/
+
+.class {
+	display: block;
+	margin: 0 auto;
+	margin-top: 69px;
+}
+
+
+/*四个菜花*/
+
+#vegetables {
+	width: 1000px;
+	height: 308px;
+	margin: 0 auto;
+	margin-top: 44px;
+	/*border: 1px solid blue;*/
+}
+
+#vegetables li {
+	list-style: none;
+	width: 202px;
+	height: 308px;
+	float: left;
+	/*border: 1px solid gold;*/
+	margin-right: 64px;
+}
+
+#vegetables li img {
+	width: 202px;
+	height: 202px;
+}
+
+#vegetables li a {
+	width: 169px;
+	height: 30px;
+	border: 2px solid black;
+	display: block;
+	margin: 0 auto;
+	margin-top: 24px;
+	text-align: center;
+	line-height: 30px;
+	text-decoration: none;
+	color: black;
+	border-radius: 17px;
+}
+
+
+/*四个菜花结束*/
+
+
+/*展块*/
+
+#show {
+	width: 100%;
+	height: 630px;
+	background: url(images/bj.jpg) no-repeat center center;
+}
+
+#show .center {
+	width: 1000px;
+	height: 630px;
+	border: 1px solid transparent;
+	margin: 0 auto;
+	position: relative;
+}
+
+#show .center .tab {
+	position: absolute;
+	left: 252px;
+	top: 132px;
+}
+
+#show .center .tab li {
+	list-style: none;
+	float: left;
+	font-size: 14px;
+	color: white;
+	width: 98px;
+	height: 23px;
+	text-align: center;
+	line-height: 23px;
+	border: 1px solid white;
+	margin-right: 34px;
+}
+
+#show .center .tab li.cur {
+	background: #73B434;
+	border: 1px solid #73B434;
+	position: relative;
+}
+
+#show .center .tab li.cur span {
+	display: block;
+	width: 0;
+	height: 0;
+	/*transparent 表示透明色*/
+	border: 11px solid transparent;
+	border-top: 11px solid #73B434;
+	position: absolute;
+	left: 40px;
+	top: 23px;
+}
+
+#exhibits {
+	width: 1000px;
+	height: 372px;
+	/*border: 1px solid blue;*/
+	margin: 0 auto;
+	margin-top: 208px;
+}
+
+#exhibits li {
+	width: 217px;
+	height: 370px;
+	list-style: none;
+	float: left;
+	margin-right: 44px;
+}
+
+#exhibits li img {
+	width: 217px;
+	height: 218px;
+	display: block;
+	float: left;
+}
+
+#exhibits li .explain {
+	width: 217px;
+	height: 155px;
+	/*border: 1px solid green;*/
+	background: #F1F1F1;
+	float: left;
+}
+
+#exhibits li .explain span.title {
+	font-size: 16px;
+	color: #333333;
+	font-weight: 700;
+	display: block;
+	margin-left: 22px;
+	margin-top: 15px;
+}
+
+#exhibits li .explain p {
+	font-size: 13px;
+	color: #595959;
+	margin-left: 23px;
+	margin-top: 10px;
+}
+
+.box {
+	width: 19px;
+	height: 19px;
+	border-top: 2px solid #9C9C9C;
+	border-right: 2px solid #9C9C9C;
+	border-bottom: 2px solid #9C9C9C;
+	border-left: 2px solid #9C9C9C;
+	/*margin: 100px auto;*/
+	text-align: center;
+	line-height: 19px;
+	border-radius: 12px;
+	float: left;
+	margin: -1px 6px 0 -4px;
+}
+
+
+/*展块结束*/
+
+
+/*底部*/
+
+#bottom {
+	width: 100%;
+	height: 70px;
+	background: #FFFFFF;
+}
+
+#bottom .center {
+	width: 1000px;
+	height: 70px;
+	margin: 0 auto;
+	/*margin: 0 auto;*/
+	/*border-left: 1px solid gold;*/
+	/*border-right: 1px solid gold;*/
+}
+
+#bottom .center p {
+	float: left;
+	font-size: 12px;
+	color: #313131;
+	line-height: 70px;
+	margin-right: 20px;
+}
+
+#bottom .center p.one {
+	/*float: right;*/
+}
+
+
+/*底部结束*/
